@@ -7,7 +7,7 @@ Một lớp AVector có các phương thức:
 - Div: chia 2 AVector
 - Dot: tích vô hướng 2 AVector
 - Module: độ dài của AVector
-- Angle: góc giữa 2 AVector
+- Angle: góc giữa 2 AVector <br>
 Tất cả các phương thức ở trên đều đặc tả dưới dạng lớp trừu tượng abstract.
 
 Khai báo 2 lớp Vector2D và Vector3D kế thừa từ AVector. Cài đặt các phương thức ở lớp cha.
