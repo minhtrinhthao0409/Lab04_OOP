@@ -320,8 +320,8 @@ namespace Lab04
                     {
 
                         AVector resultMul = vectors[i].Mul(vectors[j]);
-                        string add = vectors[i].Print() + " * " + vectors[j].Print() + " = " + resultMul.Print();
-                        Console.WriteLine("\t- " + add);
+                        string mul = vectors[i].Print() + " * " + vectors[j].Print() + " = " + resultMul.Print();
+                        Console.WriteLine("\t- " + mul);
 
                     }
                     catch //InvalidOperationException ex)
@@ -334,7 +334,7 @@ namespace Lab04
 
             #region Divide 2 vectors
             
-            Console.WriteLine("Add 2 vectors");
+            Console.WriteLine("Divide 2 vectors");
 
             for (int i = 0; i<vectors.Count; i++)
                 for (int j = i + 1; j<vectors.Count; j++)
@@ -407,6 +407,8 @@ namespace Lab04
                     }
                 }
             #endregion
+
+            Console.ReadKey();
         }
     }
 }
